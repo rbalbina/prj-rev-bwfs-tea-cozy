@@ -1,0 +1,179 @@
+body{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  padding: 10px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: black;
+
+}
+
+.logo{
+  height: 50px;
+}
+
+.menu{
+  padding-right: 30px;
+}
+
+.menu ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 0 10px;
+}
+
+.menu li a{
+  color: seashell;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 79px;
+}
+
+.our-mission{
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.our-mission img{
+  display: block;
+  width: 1200px
+}
+
+.our-text{
+  text-align: center;
+  position: absolute;
+  background-color: black;
+  top: 350px;
+  width: 1200px;
+}
+
+.teamonth{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  margin-bottom: 40px;
+}
+
+.headline{
+  text-align: center;
+}
+
+.chas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tipocha{
+  text-align: center;
+  margin: 0 10px;
+}
+
+.tipocha p{
+  margin-top: 10px;
+}
+
+.tipocha img{
+  width: 300px;
+  height: 200px;
+}
+
+.locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations h2{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.adresses{
+  display: flex;
+  justify-content: center;
+}
+
+.downtown{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.eastbayside{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.oakdale{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.rodape{
+  text-align: left;
+  width: 100%;
+  height: 200px;
+}
+
+.center{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.spacer{
+  padding-bottom: 20px;
+}
+
+.direitos h5{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.direitos{
+  width: 100%;
+}
